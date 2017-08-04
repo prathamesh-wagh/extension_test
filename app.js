@@ -7,7 +7,7 @@ var app = Built.App('bltf738cc52904b76c6')
 .setHost("54c383fd.ngrok.io")
 .setProtocol("http")
 // .setPort(80)
-.setMasterKey('blte09616313f4eaf7a')
+.setMasterKey('bltf2f96329cf04677f')
 
 var extensionSDK = app.Extension({
 	secret_key     : 'bltf738cc52904b76c6',

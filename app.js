@@ -1,7 +1,7 @@
 var Built = require('built-extension-sdk')
 
 // Initiate application
-var app = Built.App('bltf738cc52904b76c6')
+var app = Built.App('blt7d2f7f91303a2094')
 // .setHost('localhost')
 // .setPort(8000)
 .setHost("54c383fd.ngrok.io")
@@ -10,7 +10,7 @@ var app = Built.App('bltf738cc52904b76c6')
 .setMasterKey('bltf2f96329cf04677f')
 
 var extensionSDK = app.Extension({
-	secret_key     : 'bltf738cc52904b76c6',
+	secret_key     : 'blt42824770f2b28c08',
 	extension_key	 : 'blt_ext_default',
 	static         : __dirname + '/client',
 	routes         : require('./server/routes')

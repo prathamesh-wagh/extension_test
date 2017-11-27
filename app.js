@@ -1,10 +1,10 @@
 var Built = require('built-extension-sdk')
 
 // Initiate application
-var app = Built.App('blt196d1ea350e6398e')
-.setHost("fd238959.ngrok.io")
+var app = Built.App('blt5be4e4d0596ae184')
+.setHost("test-stag-api.built.io")
 .setProtocol("https")
-.setMasterKey('bltd99abe8292a3b1bb')
+.setMasterKey('bltd0673980320fcb4a')
 
 var extensionSDK = app.Extension({
 	secret_key     : 'blt2027aaf39aeb589c',

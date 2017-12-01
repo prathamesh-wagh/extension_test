@@ -12,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
      "lodash.template": "*",
-     "request": "*"
+     "request": "*",
+     "when": "*",
+     "async": "*"
   }
 }

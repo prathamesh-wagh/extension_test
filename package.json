@@ -12,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "math": "*",
-    "react": "*"
+    "react": "*",
+    "when": "*",
+    "request": "*"
   }
 }

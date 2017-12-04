@@ -1,7 +1,5 @@
 var Built = require('built-extension-sdk')
 
-var something = Built.Something()
-
 // Initiate application
 var app = Built.App('bltdeac9ae51b85c489')
 .setHost("test-stag-api.built.io")

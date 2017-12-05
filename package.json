@@ -12,7 +12,7 @@
   "author": "abhijeet.sonawane.raweng <abhijeet.sonawane@raweng.com> (https://www.npmjs.com/~abhijeet.sonawane.raweng)",
   "license": "ISC",
   "dependencies": {
-
+    "when": "*",
     "math": "*",
     "react": "*",
     "expressjs": "*",

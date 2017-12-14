@@ -104,6 +104,19 @@ module.exports = {
 			}
 		}
 	},
+	"/v1/uploads": {
+		POST: {
+			_pre: function(req, res) {
+				console.log("Upload hook called _pre");
+				return when.resolve()
+			},
+			_post: function(req, res) {
+				console.log("Upload hook called _post");
+				console.log(req.bobjekt)
+				return when.resolve()
+			}
+		}
+	},
 	"/v1/classes/person/objects": {
 		POST: {
 			_pre: function(req, res) {

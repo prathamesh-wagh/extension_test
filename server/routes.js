@@ -107,12 +107,12 @@ module.exports = {
 	"/v1/uploads": {
 		POST: {
 			_pre: function(req, res) {
-				console.log("Upload hook called _pre");
+				req.logger.log("Upload hook called _pre");
 				return when.resolve()
 			},
 			_post: function(req, res) {
-				console.log("Upload hook called _post");
-				console.log(req.bobjekt)
+				req.logger.log("Upload hook called _post");
+				req.logger.log(req.bobjekt)
 				return when.resolve()
 			}
 		}

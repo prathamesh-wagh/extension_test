@@ -1,6 +1,6 @@
 var when = require('when')
 
-module.exports = {{
+module.exports = {
 	"/v1/functions/swapnil": {
 		GET: function(req, res){
 			this.resSuccess(req, res, {

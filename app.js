@@ -1,9 +1,7 @@
 var Built = require('built-extension-sdk')
 
-Built.something().tada
-
 // Initiate application
-var app = Built.App('bltdeac9ae51b85c489')
+var app = Built.App1('bltdeac9ae51b85c489')
 .setHost("test-stag-api.built.io")
 .setProtocol("https")
 .setMasterKey('blt94ec4ebcafda3ab9')
